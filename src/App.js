@@ -1,8 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/NavBar';
 function App() {
   return (
-    <h1>Not rendered</h1>
+    <div>
+      <Navbar />
+    </div>
   );
 }
 
