@@ -35,7 +35,7 @@ const NavBar = () => {
                         <a className="nav-link" href="#">Portfolio <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Contacts <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="#">Contact <span className="sr-only">(current)</span></a>
                     </li>
                     </ul>
                 </div>
