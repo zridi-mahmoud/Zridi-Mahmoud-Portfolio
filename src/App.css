@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 :root {
     --primary-white: #fff;
-    --primary-orange: #f9ab00;
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
+    --dark-pink: #2E151B;
+    --light-pink: #DA7B93;
+    --dark-green: #1C3334;
+    --light-green: #376E6F;
+    --primary-blue: #2F4454;
 }
 
 body {
     font-family: "roboto condensed", sans-serif;
+    background-color: var(--primary-blue) !important;
+    color: var(--primary-white) !important;
 }
 
 
@@ -16,6 +22,10 @@ body {
 
 nav {
     z-index: 2;
+}
+
+.navbar-custom {
+    background-color: var(--light-green) !important;
 }
 
 .logo {
@@ -50,11 +60,11 @@ nav ul li {
 
 .navbar-nav>li>a.active,
 .navbar-nav>li>a.active:focus {
-    border-top: 0.1875rem solid var(--primary-orange);
+    border-top: 0.1875rem solid var(--light-pink);
 }
 
 .navbar-nav>li>a:hover {
-    border-top: 0.1875rem solid var(--primary-orange);
+    border-top: 0.1875rem solid var(--light-pink);
 }
 
 
@@ -84,7 +94,7 @@ nav ul li {
 }
 
 .main-info h1 {
-    color: var(--primary-orange);
+    color: var(--primary-white);
     text-transform: uppercase;
 }
 
@@ -138,4 +148,12 @@ nav ul li {
     .particles-canvas {
         display: none;
     }
+}
+
+
+/* ************************* ABOUT ME  *************************  */
+
+#image .personalPhoto {
+    background-color: var(--primary-blue) !important;
+    padding: 0 !important;
 }
